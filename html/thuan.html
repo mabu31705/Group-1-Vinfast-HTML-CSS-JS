@@ -1,71 +1,75 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:width="http://www.w3.org/1999/xhtml" xmlns:height="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>PageLayout</title>
     <link rel="stylesheet" href="../css/thuan.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <script src="../js/thuan.js"></script>
 
 </head>
 <body>
-<nav class="row-navigator">
+<div class="wrapper">
+    <header>
+        <h1>Yoko's Kitchen</h1>
+        <nav>
+            <ul>
+                <li><a href="" class="current">home</a></li>
+                <li><a href="">classes</a></li>
+                <li><a href="">catering</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="courses">
+        <article>
+            <figure>
+                <img src="../media/banner1.jpg" style="opacity: 10%" alt="Bok Choi"/>
+                <figcaption>Bok Choi</figcaption>
+            </figure>
+            <hgroup>
+                <h2>Japanese Vegetarian</h2>
+                <h3>Five week course in London</h3>
+            </hgroup>
+            <p>A five week introduction to traditional Japanese vegetarian meals,
+                teaching you a selection of rice and noodle dishes.</p>
+        </article>
+        <article>
+            <figure>
+                <img src="../media/banner2.jpg" style="opacity: 10%" alt="Teriyaki sauce"/>
+                <figcaption>Teriyaki Sauce</figcaption>
+            </figure>
+            <hgroup>
+                <h2>Sauces Masterclass</h2>
+                <h3>One day workshop</h3>
+            </hgroup>
+            <p>An intensive one-day course looking at how to create the most delicious
+                sauces for use in a range of Japanese cookery.</p>
+        </article>
+    </section>
+    <aside>
+        <section class="popular-recipes">
+            <h2>Popular Recipes</h2>
+            <a href="">Yakitori (grilled chicken)</a>
+            <a href="">Tsukune (minced chicken patties)</a>
+            <a href="">Okonomiyaki (savory pancakes)</a>
+            <a href="">Mizutaki (chicken stew)</a>
+        </section>
+        <section class="contact-details">
+            <h2>Contact</h2>
+            <p>Yoko's Kitchen<br/>
+                27 Redchurch Street<br/>
+                Shoreditch<br/>
+                London E2 7DP</p>
+        </section>
+    </aside>
+    <footer>
+        &copy; 2011 Yoko's Kitchen
+    </footer>
+</div><!-- .wrapper -->
 
-    <div class="mainNav">
-        <div class="logo">
-            <img class="img" src="https://storage.googleapis.com/dev-vinfast-vn-cmu-data/2022/08/00b5ffc0-vin-logo-vertical.png" alt="Logo">
-        </div>
-
-        <div class="home">
-            <button class="dropbtn">Trang chủ</button>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">Tin tức<img class="drop-down-arrow" src="../media/arrow-down-icon.png"></button>
-            <div class="dropdown-content">
-                <a href="#">Tin VinFast</a>
-                <a href="#">Thị trường xe điện</a>
-                <a href="#">Công nghệ</a>
-                <a href="#">Đời sống</a>
-            </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">Diễn đàn<img class="drop-down-arrow" src="../media/arrow-down-icon.png"></button>
-            <div class="dropdown-content">
-                <a href="#">Chăm xe - Chơi xe</a>
-                <a href="#">Công nghệ ô tô</a>
-                <a href="#">Đánh giá xe</a>
-                <a href="#">Giao thông lái xe</a>
-                <a href="#">Hỏi đáp</a>
-                <a href="#">Phong cách sống</a>
-                <a href="#">Tâm sự</a>
-                <a href="#">Tin tức</a>
-            </div>
-        </div>
-        <div class="event">
-            <button class="dropbtn">Sự kiện </button>
-        </div>
-        <div class="library">
-            <button class="dropbtn">Thư viện</button>
-        </div>
-    </div>
-
-    <div class="subNav">
-        <div class="search hidden">
-            <form action="#">
-                <input type="text" placeholder="Search">
-                <button type="submit"><img src="../media/search.webp">/button>
-            </form>
-        </div>
-        <div class="search-button">
-            <button id="search-btn"><img src="../media/search.webp"></button>
-        </div>
-        <div class="login">
-            <button class="loginBtn">Đăng nhập </button>
-        </div>
-        <div class="register">
-            <button class="registerBtn">Đăng ký</button>
-        </div>
-    </div>
-
-</nav>
 </body>
 </html>
