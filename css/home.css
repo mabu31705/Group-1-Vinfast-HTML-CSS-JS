@@ -10,13 +10,14 @@ footer {
     display: flex;
     justify-content: center;
     line-height: 24px;
+    overflow: hidden;
 }
 
 .outer-footer {
     display: flex;
-    width: 1440px;
+    width: 1420px;
     justify-content: space-between;
-    margin: 0px 0 0px 0px;
+    margin:auto;
     padding: 10px;
     font-size: 16px;
 }
@@ -35,12 +36,13 @@ footer {
 
 .footer-contact {
     width: 15%;
-    word-wrap: break-word;
+
 }
 
 .footer-contact a {
     display: block;
     color: black;
+    word-wrap: break-word;
 }
 .footer-contact a i img{
     display: flex;
@@ -54,6 +56,7 @@ footer {
 .footer-contact a span{
     color: #1464F4;
     padding: 0 0 0 5px;
+
 }
 
 .footer-about a, .footer-policy a {
