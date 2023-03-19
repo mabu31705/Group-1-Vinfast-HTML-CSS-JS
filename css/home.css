@@ -26,7 +26,10 @@ footer {
 .outer-footer a {
     text-decoration: none;
 }
-
+.footer-log img{
+    width: 80px;
+    height: 80px;
+}
 .footer-about {
     width: 25%;
 }
@@ -37,7 +40,6 @@ footer {
 
 .footer-contact {
     width: 15%;
-
 }
 
 .footer-contact a {
@@ -93,20 +95,60 @@ footer {
     display: flex;
     justify-content: center;
 }
-.padding-outer-article-gd{
-background-color: #1464F4;
+.gd a {
+    display: block;
+    text-decoration: none;
+    color: #3C3C3C;
+}
 
+.padding-outer-article-gd{
     padding: 10px;
+    height: 750px;
+
 }
 .outer-article-gd{
-    background-color: red;
     width: 1290px;
+
 }
 .article-gd-content-img{
     width:283px;
     height:187px;
 }
 .article-gd-author-img{
-    width: 80px;
-    height: 80px;
+    width: 32px;
+    height: 32px;
+    display: block;
+    border-radius: 30px;
 }
+
+.article-gd-title{
+    padding: 0 0 10px 0;
+    width: 100%;
+}
+.article-gd-outer-content{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-evenly;
+    row-gap: 5%;
+}
+.article-gd-content-detail-others{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    gap:30px;
+}
+.article-gd-content-outer,.article-gd-content-detail-others,.article-gd-content-detail-others a{
+    display: flex;
+
+}
+.article-gd-content-detail-others-author-name,.article-gd-content-detail-others span{
+   margin: auto 0 auto 0;
+    font-size: 12px;
+}
+.article-gd-content-detail-others-date a{
+    color:#707070;
+}
+.article-gd-content-detail{
+    margin: 0 0 10px 30px;
+}
+/*end article gan day css*/
