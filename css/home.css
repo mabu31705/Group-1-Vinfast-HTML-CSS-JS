@@ -1,3 +1,4 @@
+/*footer css*/
 footer {
     box-sizing: border-box;
     background-color: #E9ECF0;
@@ -83,4 +84,29 @@ footer {
 }
 .footer-about-p2{
     font-size:14px;
+}
+/*end footer css*/
+/*article gan day css*/
+.gd{
+    position: relative;
+    padding: 0 0 60px 0;
+    display: flex;
+    justify-content: center;
+}
+.padding-outer-article-gd{
+background-color: #1464F4;
+
+    padding: 10px;
+}
+.outer-article-gd{
+    background-color: red;
+    width: 1290px;
+}
+.article-gd-content-img{
+    width:283px;
+    height:187px;
+}
+.article-gd-author-img{
+    width: 80px;
+    height: 80px;
 }
