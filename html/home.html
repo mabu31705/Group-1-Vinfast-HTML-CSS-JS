@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="../css/Navigation.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<nav class="nav">
+  <div class="logo"><img src="../media/vinfastLogo.png"></div>
+  <ul class="navBar">
+    <li>
+      <a class="homebtn" href="Navigation.html">Trang Chủ</a>
+    </li>
+    <li>
+      <div class="dropdown">
+          <button class="dropbtn" onclick="location.href='#';" value="#">Tin tức</button>
+          <div class="dropdown-content">
+              <a href="#">Tin VinFast</a>
+              <a href="#">Thị trường xe điện</a>
+              <a href="#">Công nghệ</a>
+              <a href="#">Đời sống</a>
+              <a href="#">Du lịch</a>
+              <a href="#">Ảnh đẹp</a>
+          </div>
+          <i id="icon" class='fas fa-angle-down'></i>
+      </div>
+    </li>
+    <li>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="location.href='#';" value="#">Diễn đàn</button>
+            <div class="dropdown-content">
+                <a href="#">Chăm xe-Chơi xe</a>
+                <a href="#">Công Nghệ ô tô</a>
+                <a href="#">Đánh giá xe</a>
+                <a href="#">Giao thông lái xe</a>
+                <a href="#">Hỏi-đáp</a>
+                <a href="#">Phong cách sống</a>
+                <a href="#">Tâm sự</a>
+                <a href="#">Tin tức</a>
+            </div>
+            <i id="icon" class='fas fa-angle-down'></i>
+        </div>
+    </li>
+    <li><a href="#">Sự Kiện</a></li>
+    <li><a href="#">Thư Viện</a></li>
+  </ul>
+    <i class='fas fa-search search-icon' id="searchIcon"></i>
+    <div class="search-box">
+        <i class='fas fa-search search-icon'></i>
+        <input type="text" placeholder="Search">
+    </div>
+    <ul class="ul2">
+        <li><a class="bdr"></a></li>
+        <li><a href="#" class="login">Đăng Nhập</a></li>
+        <li><a href="#" class="register">Đăng Ký</a></li>
+    </ul>
+</nav>
+<script src="../js/Navigation.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</body>
+</html>
