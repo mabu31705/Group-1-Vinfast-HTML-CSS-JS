@@ -19,9 +19,14 @@ ul{
     background: white;
     display: flex;
     align-items: center;
+    padding: 0 10px;
+}
+.nav-container{
+    display: flex;
     justify-content: space-between;
-    padding: 10px 200px;
-
+    width: 70%;
+    padding: 0 10px;
+    margin: auto;
 }
 .nav .logo{
     height: 40px;
@@ -40,9 +45,6 @@ ul{
     padding: 10px 25px;
     flex-direction: row;
     font-size: 13px;
-}
-.navBar{
-    width: 100%;
 }
 #icon {
     margin: 0 5px;
@@ -63,17 +65,18 @@ ul{
 #searchIcon{
     cursor: pointer;
     font-size: 15px;
+    margin: auto;
 }
-.nav .search-box{
+.nav .nav-container .search-box{
     position: absolute;
     height: 45px;
     max-width: 555px;
+    left: 650px;
     width: 100%;
     opacity: 0;
     pointer-events: none;
     transition: all 0.2s linear;
-    text-align: center;
-    justify-content: center;
+    align-items: center;
 }
 .nav.openSearch{
     display: flex;
@@ -108,6 +111,7 @@ i#searchIcon.fas.fa.times.search-icon::before{
 }
 ul.ul2{
     max-width: 350px;
+    align-items: center;
 }
 .nav ul.ul2 li a.login{
     width: 94px;
@@ -126,10 +130,6 @@ ul.ul2{
     height: 20px;
     text-align: center;
     margin: 15px;
-}
-ul.ul2{
-    display: block;
-    align-items: center;
 }
 .dropbtn{
     color: black;
@@ -173,9 +173,4 @@ a.homebtn{
 a.homebtn:hover{
     background: lightgrey;
     border-radius: 5px;
-}
-@media screen and (max-width: 1385px) {
-    .nav{
-        padding: ;
-    }
 }
