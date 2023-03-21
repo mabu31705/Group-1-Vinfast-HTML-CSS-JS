@@ -3,14 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-body{
-    background: #dee1e2;
-    min-height: 100vh;
-}
-ul{
-    list-style-type: none;
 }
 .nav{
     width: 100%;
@@ -19,7 +11,7 @@ ul{
     display: flex;
     align-items: center;
     padding: 0 10px;
-    position: relative;
+    position: fixed;
     z-index: 100;
 }
 .nav-container{
@@ -36,6 +28,7 @@ ul{
 .nav a{
     color: black;
     text-decoration: none;
+    font-family: "Poppins", sans-serif;
 }
 .nav .navBar li {
     display: flex;
@@ -66,7 +59,7 @@ ul{
 #searchIcon{
     cursor: pointer;
     font-size: 15px;
-    margin: auto;
+    margin: 12px 10px;
 }
 .nav .nav-container .search-box{
     position: absolute;
@@ -109,6 +102,7 @@ i#searchIcon.fas.fa.times.search-icon::before{
     display: flex;
     width: 20%;
     font-size: 13px;
+    list-style-type: none;
 }
 ul.ul2{
     max-width: 350px;
@@ -117,6 +111,7 @@ ul.ul2{
 .nav ul.ul2 li a.login{
     width: 94px;
     display: block;
+    font-family: "Poppins", sans-serif;
 }
 .nav ul.ul2 li a.register{
     border: 1px solid blue;
@@ -125,6 +120,7 @@ ul.ul2{
     background-clip: padding-box;
     padding: 10px 15px;
     display: block;
+    font-family: "Poppins", sans-serif;
 }
 .nav a.bdr{
     border-right: 1px solid grey;
@@ -160,6 +156,7 @@ ul.ul2{
     padding: 10px 15px;
     text-align: left;
     border: 5px solid white;
+    font-family: "Poppins", sans-serif;
 }
 .dropdown-content a:hover {
     background-color: lightgrey;

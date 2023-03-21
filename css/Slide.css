@@ -10,4 +10,21 @@
     width: 100%;
     height: fit-content;
     object-fit: cover;
+    filter: blur(1px);
+}
+.post-title{
+    position: absolute;
+    max-width: 800px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    padding: 20px 20px 80px 20px;
+}
+.post-title a{
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    font-family: "Calibri Light";
+    margin: 0 10px 25px 10px;
 }
