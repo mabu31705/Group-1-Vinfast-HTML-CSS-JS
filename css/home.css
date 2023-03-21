@@ -108,7 +108,6 @@ footer {
 }
 .outer-article-gd{
     width: 1290px;
-
 }
 
 .article-gd-content-img{
@@ -152,6 +151,7 @@ footer {
 }
 .article-gd-content-detail{
     margin: 0 0 10px 30px;
+    border-bottom: 1px solid #D9E1E2;
 }
 /*end article gan day css*/
 /*article hoi dap su kien css*/
