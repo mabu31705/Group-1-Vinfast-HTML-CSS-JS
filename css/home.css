@@ -275,6 +275,9 @@ display: grid;
     display: flex;
     justify-content: center;
 }
+.article-hdsk-span-title{
+    padding-right: 5px;
+}
 .article-hdsk-content-sk-content-feature-event-outer{
     padding: 12px 20px;
     background-color: #F8F8F8;
