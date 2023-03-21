@@ -5,11 +5,13 @@
     <title>Navigation</title>
     <link rel="stylesheet" href="../css/Navigation.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Slide.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 </head>
 <body>
-<nav class="nav">
+<nav class="nav" id="myNav">
     <div class="nav-container">
-  <div class="logo"><img src="../media/vinfastLogo.png"></div>
+  <div class="logo"><img src="../media/vinfastLogo.png" alt=""></div>
   <ul class="navBar">
     <li>
       <a class="homebtn" href="home.html">Trang Chủ</a>
@@ -25,7 +27,7 @@
               <a href="#">Du lịch</a>
               <a href="#">Ảnh đẹp</a>
           </div>
-          <i id="icon" class='fas fa-angle-down'></i>
+          <i id="iconDrop" class='fas fa-angle-down'></i>
       </div>
     </li>
     <li>
@@ -41,7 +43,7 @@
                 <a href="#">Tâm sự</a>
                 <a href="#">Tin tức</a>
             </div>
-            <i id="icon" class='fas fa-angle-down'></i>
+            <i id="iconDrop1" class='fas fa-angle-down'></i>
         </div>
     </li>
     <li><a href="#">Sự Kiện</a></li>
@@ -59,7 +61,22 @@
     </ul>
     </div>
 </nav>
+<div class="slide-container">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../media/banner6.jpg" alt="https://cmu-cdn.vinfast.vn/2023/03/066fec45-vinfastroses2-2048x1199.jpg"></div>
+            <div class="swiper-slide"><img src="../media/banner5.jpg" alt="https://cmu-cdn.vinfast.vn/2023/03/41494951-vf8.028.outdoor-2048x1366.jpg"></div>
+            <div class="swiper-slide"><img src="../media/banner4.jpg" alt="https://cmu-cdn.vinfast.vn/2023/03/bdfc5dbd-5d3l0669-2048x1365.jpg"></div>
+            <div class="swiper-slide"><img src="../media/banner3.jpg" alt="https://cmu-cdn.vinfast.vn/2023/03/6ef92ccd-xecunam1.jpg"></div>
+            <div class="swiper-slide"><img src="../media/banner2.jpg" alt="https://cmu-cdn.vinfast.vn/2023/02/f12b1365-phananhxuyenvietvf8j-scaled-e1675677049124-1024x566.jpg"></div>
+            <div class="swiper-slide"><img src="../media/banner1.jpg" alt="https://vinfast.vn/wp-content/uploads/2022/08/bao-duong-lan-dau.jpg"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
 <script src="../js/Navigation.js"></script>
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="../js/Slide.js"></script>
 </body>
 </html>
