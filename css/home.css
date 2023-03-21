@@ -131,6 +131,9 @@ footer {
     justify-content: space-evenly;
     row-gap: 5%;
 }
+.article-gd-content-detail{
+    border-bottom: 1px solid #D9E1E2;
+}
 .article-gd-content-detail-others{
     display: flex;
     flex-wrap: wrap;
