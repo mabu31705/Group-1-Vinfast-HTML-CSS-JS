@@ -19,6 +19,8 @@ ul{
     display: flex;
     align-items: center;
     padding: 0 10px;
+    position: relative;
+    z-index: 100;
 }
 .nav-container{
     display: flex;
