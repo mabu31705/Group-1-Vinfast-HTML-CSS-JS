@@ -206,7 +206,7 @@ ul.ul2 {
     text-decoration: none;
     display: inline-block;
     background: white;
-    /*width: 170px;*/
+    width: 170px;
     padding: 10px 15px;
     text-align: left;
     border: 5px solid white;
