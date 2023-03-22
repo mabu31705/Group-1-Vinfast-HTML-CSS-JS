@@ -30,8 +30,7 @@ ul {
 
 .nav-container {
     display: flex;
-    /*justify-content: space-between;*/
-    width: 1310px;
+    width: 1340px;
     padding: 0 10px;
     margin: auto;
     justify-content: center;
@@ -94,7 +93,7 @@ ul {
     position: absolute;
     height: 45px;
     max-width: 555px;
-    left: 650px;
+    /*left: 650px;*/
     width: 100%;
     opacity: 0;
     pointer-events: none;
@@ -108,10 +107,10 @@ ul {
 }
 
 i#searchIcon.fas.fa.times.search-icon::before {
-    /*text-align: center;*/
-    justify-content: flex-end;
     display: flex;
+    justify-content: center;
 }
+
 
 .nav.openSearch .search-box {
     opacity: 1;
@@ -127,7 +126,6 @@ i#searchIcon.fas.fa.times.search-icon::before {
     transform: translateY(-50%);
     color: grey;
 }
-
 .search-box input {
     height: 100%;
     width: 100%;
@@ -135,22 +133,33 @@ i#searchIcon.fas.fa.times.search-icon::before {
     outline: none;
     background: #dee1e2;
     padding: 0 15px 0 45px;
+    display: flex;
+    justify-content: center;
 
 }
 
 .nav ul.ul2 {
     display: flex;
-    width: 20%;
     font-size: 13px;
+
+}
+ul .ul12 li, ul .ul12 li a{
+    display: flex;
+    align-content: end;
+}
+ul .ul12{
+
 }
 
 ul.ul2 {
-    max-width: 350px;
+    /*max-width: 350px;*/
     align-items: center;
+
 }
 
+
 .nav ul.ul2 li a.login {
-    width: 94px;
+    /*width: 94px;*/
     display: block;
 }
 
@@ -197,7 +206,7 @@ ul.ul2 {
     text-decoration: none;
     display: inline-block;
     background: white;
-    width: 170px;
+    /*width: 170px;*/
     padding: 10px 15px;
     text-align: left;
     border: 5px solid white;
