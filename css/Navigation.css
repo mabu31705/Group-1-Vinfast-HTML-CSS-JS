@@ -30,11 +30,14 @@ ul {
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
-    width: 70%;
+    /*justify-content: space-between;*/
+    width: 1310px;
     padding: 0 10px;
     margin: auto;
+    justify-content: center;
+
 }
+
 
 .nav .logo {
     height: 40px;
@@ -85,6 +88,8 @@ ul {
     margin: auto;
 }
 
+
+
 .nav .nav-container .search-box {
     position: absolute;
     height: 45px;
@@ -103,14 +108,18 @@ ul {
 }
 
 i#searchIcon.fas.fa.times.search-icon::before {
-    text-align: center;
+    /*text-align: center;*/
+    justify-content: flex-end;
+    display: flex;
 }
 
 .nav.openSearch .search-box {
     opacity: 1;
     pointer-events: auto;
 }
-
+.search-box{
+    display: flex;
+}
 .search-box .search-icon {
     position: absolute;
     left: 15px;
@@ -126,6 +135,7 @@ i#searchIcon.fas.fa.times.search-icon::before {
     outline: none;
     background: #dee1e2;
     padding: 0 15px 0 45px;
+
 }
 
 .nav ul.ul2 {
