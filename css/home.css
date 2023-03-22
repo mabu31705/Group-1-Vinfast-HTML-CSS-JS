@@ -131,6 +131,9 @@ footer {
     justify-content: space-evenly;
     row-gap: 5%;
 }
+.article-gd-content-detail{
+    border-bottom: 1px solid #D9E1E2;
+}
 .article-gd-content-detail-others{
     display: flex;
     flex-wrap: wrap;
@@ -275,6 +278,12 @@ display: grid;
     display: flex;
     justify-content: center;
 }
+.article-hdsk-span-arrow svg{
+    padding-top: 7px;
+}
+.article-hdsk-span-title{
+    padding-right: 5px;
+}
 .article-hdsk-content-sk-content-feature-event-outer{
     padding: 12px 20px;
     background-color: #F8F8F8;
@@ -287,4 +296,3 @@ display: grid;
     font-size:14px;
     font-weight: 300;
 }
-
