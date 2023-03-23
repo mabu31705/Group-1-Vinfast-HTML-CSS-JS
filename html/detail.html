@@ -5,49 +5,83 @@
     <title>Detail</title>
     <link rel="stylesheet" href="../css/detail.css">
     <script src="../js/detail.js"></script>
-    <style>
-        *{
-            box-sizing: content-box;
-            border: 1px solid black;
-        }
-        .detail-container{
-            background-color: #92A0B2;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-
-        }
-        .detail-outer{
-            background-color: #1464F4;
-            display: flex;
-            width: 1200px;
-            height: 845px;
-        }
-        .detail-div-img, .detail-div-info{
-            background-color: yellow;
-        }
-        .detail-div-img{
-            width: 40%;
-        }
-        .detail-div-info{
-            width: 60%;
-        }
-        .detail-outer .detail-div-img,
-        .detail-outer .detail-div-info{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 64px;
-        }
-    </style>
 </head>
 <body>
 <div class="detail-container">
         <div class="detail-outer">
-            <div class="detail-div-img"><h1>DIV 1</h1></div>
-            <div class="detail-div-info"><h1>DIV 2</h1></div>
+            <div class="detail-div-img">
+                <div class="mainPic-container">
+                    <img src="https://down-vn.img.susercontent.com/file/vn-50009109-88b7d7d51889df5e4ead9c06799269a3" alt="" class="inner-img">
+                    <img src="https://down-vn.img.susercontent.com/file/e6e30eaf35a3982dd4c73a258d0df1b3_tn" alt="" class="mainPic">
+                    <img id="expandedImg" style="width:100%" alt="">
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img src="https://down-vn.img.susercontent.com/file/vn-50009109-88b7d7d51889df5e4ead9c06799269a3" alt="" class="inner-img-small">
+                        <img src="https://down-vn.img.susercontent.com/file/e6e30eaf35a3982dd4c73a258d0df1b3_tn" alt="" style="width:100%" onclick="">
+                    </div>
+                    <div class="column">
+                        <img src="https://down-vn.img.susercontent.com/file/e19b679c4cce02712fd06dbd6581b71d_tn" alt="" style="width:100%" onclick="">
+                    </div>
+                    <div class="column">
+                        <img src="https://down-vn.img.susercontent.com/file/f2dcef5719365a62b385b42650808844_tn" alt="" style="width:100%" onclick="">
+                    </div>
+                    <div class="column">
+                        <img src="https://down-vn.img.susercontent.com/file/79f6b729d5033c6404905cfb9f3db0d0_tn" alt="" style="width:100%" onclick="">
+                    </div>
+                    <div class="column">
+                        <img src="https://down-vn.img.susercontent.com/file/e4be6e9626520bfb6e7c1ff638aec4b1_tn" alt="" style="width:100%" onclick="myFunction(this);">
+                    </div>
+                </div>
+                <div class="share-like">
+                    <div class="share-icon-container">
+                        <div class="share-icon">
+                            <label>Chia Sẻ:</label>
+                        </div>
+                        <div class="like-icon">
+                            <label>Đã Thích(8,6K)</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-div-info"></div>
         </div>
+</div>
+<div tabindex="0" class="model-img">
+    <div class="model-img-container">
+        <div class="main-model-img">
+            <img src="https://down-vn.img.susercontent.com/file/e6e30eaf35a3982dd4c73a258d0df1b3_tn" alt="">
+        </div>
+        <div class="model-img-content">
+            <div class="model-text">[Mã FAX243A giảm 15k đơn 50k] BST 50 - Áo thun nam nữ form rộng vải dày mịn logo cá tính cách điệu</div>
+            <div class="model-row">
+                <div class="model-column">
+                    <img src="https://down-vn.img.susercontent.com/file/e6e30eaf35a3982dd4c73a258d0df1b3_tn" alt="">
+                </div>
+                <div class="model-column">
+                    <img src="https://down-vn.img.susercontent.com/file/e19b679c4cce02712fd06dbd6581b71d_tn" alt="">
+                </div>
+                <div class="model-column">
+                    <img src="https://down-vn.img.susercontent.com/file/f2dcef5719365a62b385b42650808844_tn" alt="">
+                </div>
+                <div class="model-column">
+                    <img src="https://down-vn.img.susercontent.com/file/79f6b729d5033c6404905cfb9f3db0d0_tn" alt="">
+                </div>
+                <div class="model-column">
+                    <img src="https://down-vn.img.susercontent.com/file/e4be6e9626520bfb6e7c1ff638aec4b1" alt="">
+                </div>
+                <div class="model-column">
+                    <img src="https://down-vn.img.susercontent.com/file/c9f9cff431a9678dba731d78db7d598d" alt="">
+                </div>
+                <div class="model-column">
+                    <img src="https://down-vn.img.susercontent.com/file/d94f5fe7e1756bbcf5e43e7348187d9f" alt="">
+                </div>
+                <div class="model-column">
+                    <img src="https://down-vn.img.susercontent.com/file/1bfce42126e6db60ed7488104c4941cd" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
