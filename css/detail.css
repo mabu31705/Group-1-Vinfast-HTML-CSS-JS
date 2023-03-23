@@ -315,6 +315,7 @@ a {
     font-size:12px
     ;text-align: center;
     display: flex;
+    cursor: pointer;
 
 }
 .detail-button-sample-outer-3{
