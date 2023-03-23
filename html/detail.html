@@ -5,8 +5,49 @@
     <title>Detail</title>
     <link rel="stylesheet" href="../css/detail.css">
     <script src="../js/detail.js"></script>
+    <style>
+        *{
+            box-sizing: content-box;
+            border: 1px solid black;
+        }
+        .detail-container{
+            background-color: #92A0B2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+        .detail-outer{
+            background-color: #1464F4;
+            display: flex;
+            width: 1200px;
+            height: 845px;
+        }
+        .detail-div-img, .detail-div-info{
+            background-color: yellow;
+        }
+        .detail-div-img{
+            width: 40%;
+        }
+        .detail-div-info{
+            width: 60%;
+        }
+        .detail-outer .detail-div-img,
+        .detail-outer .detail-div-info{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 64px;
+        }
+    </style>
 </head>
 <body>
-
+<div class="detail-container">
+        <div class="detail-outer">
+            <div class="detail-div-img"><h1>DIV 1</h1></div>
+            <div class="detail-div-info"><h1>DIV 2</h1></div>
+        </div>
+</div>
 </body>
 </html>
