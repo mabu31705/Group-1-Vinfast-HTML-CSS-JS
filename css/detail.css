@@ -8,8 +8,8 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-
 }
+.detail-container
 .detail-outer{
     background-color: #1464F4;
     display: flex;
@@ -57,14 +57,6 @@
 .row .column img{
     width: 83px;
     height: 83px;
-}
-.inner-img-small{
-    width: 83px;
-    height: 83px;
-    position: absolute;
-    background: none;
-    cursor: none;
-    z-index: 1;
 }
 .column img {
     cursor: pointer;
