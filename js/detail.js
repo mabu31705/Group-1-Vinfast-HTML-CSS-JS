@@ -15,9 +15,3 @@ function openModel(imgs1){
     let model = document.getElementById("modelId");
     model.classList.add("openModel");
 }
-window.addEventListener('mouseup',function(event){
-    model = document.getElementById("modelId");
-    if(event.target !== model && event.target.parentNode !== model){
-        model.classList.remove("openModel");
-    }
-});
