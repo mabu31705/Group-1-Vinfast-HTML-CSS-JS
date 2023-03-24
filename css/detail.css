@@ -133,6 +133,11 @@
     width: 25%;
     padding: 5px;
 }
+#iconTimes{
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+}
 .model-text{
     word-wrap: break-word;
     padding: 50px 10px 10px 10px;

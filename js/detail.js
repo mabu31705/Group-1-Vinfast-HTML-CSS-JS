@@ -15,3 +15,7 @@ function openModel(imgs1){
     let model = document.getElementById("modelId");
     model.classList.add("openModel");
 }
+function removeModel(e){
+    model = document.getElementById("modelId");
+    model.classList.remove("openModel")
+}
