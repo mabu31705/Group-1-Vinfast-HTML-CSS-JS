@@ -110,8 +110,6 @@ i#searchIcon.fas.fa.times.search-icon::before {
     display: flex;
     justify-content: center;
 }
-
-
 .nav.openSearch .search-box {
     opacity: 1;
     pointer-events: auto;
@@ -135,7 +133,6 @@ i#searchIcon.fas.fa.times.search-icon::before {
     padding: 0 15px 0 45px;
     display: flex;
     justify-content: center;
-
 }
 
 .nav ul.ul2 {
@@ -148,15 +145,9 @@ ul .ul12 li, ul .ul12 li a{
     display: flex;
     align-content: end;
 }
-ul .ul12{
-
-}
-
 ul.ul2 {
     align-items: center;
 }
-
-
 .nav ul.ul2 li a.login {
     display: block;
     margin: 0 15px;
