@@ -507,7 +507,7 @@ a {
     margin: 10px 0 0 0;
 }
 
-.detail-outer-title div{
+.detail-outer-title div a{
     display: inline-flex;
     background-color: #ee4d2d;
     color: whitesmoke;
