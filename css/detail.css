@@ -92,6 +92,10 @@ a {
     align-items: center;
     justify-content: center;
 }
+.share-icon i{
+    font-size: 25px;
+    padding: 1px;
+}
 .like-icon{
     display: flex;
     width: 50%;
@@ -100,6 +104,10 @@ a {
     padding: 0 30px;
     align-items: center;
     justify-content: center;
+}
+.like-icon i{
+    font-size: 25px;
+    padding: 10px;
 }
 .model-img {
     position: relative;
