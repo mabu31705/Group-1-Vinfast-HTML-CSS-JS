@@ -24,10 +24,10 @@ a {
 .detail-div-img, .detail-div-info{
     background-color: white;
     z-index: 20;
-    border: 1px solid black;
 }
 .detail-div-img{
     width: 40%;
+    padding-top: 20px;
 }
 .detail-div-info{
     width: 60%;
