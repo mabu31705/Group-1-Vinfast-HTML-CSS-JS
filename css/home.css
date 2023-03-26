@@ -102,7 +102,7 @@ footer {
 }
 
 .padding-outer-article-gd{
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0 10px 10px;
     height: 750px;
 
 }
@@ -296,4 +296,64 @@ display: grid;
     color: #3C3C3C;
     font-size:14px;
     font-weight: 300;
+}
+
+/*home modal register login*/
+.outer-outer-title-register-login form,
+.outer-title-register-login,
+.outer-outer-outer-form-register-login,
+    .title-register-login,
+    .outer-form-register
+,.outer-title-register-login-1
+{
+    display: flex;
+}
+.outer-title-register-login,
+.outer-outer-outer-form-register-login,
+.title-register-login,
+    .outer-form-register
+{
+    justify-content: center;
+    align-items: center;
+
+}
+.outer-outer-title-register-login form{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.title-login,.title-register,.outer-title-register-login-1,.title-register-1,.title-login-1{
+    width: 50%;
+    padding: 5px;
+    margin:5px;
+    text-align: center;
+}
+.title-register:hover,.title-login:hover{
+    background-image:radial-gradient(cyan 1%, #1362f3 90%, #1362f3, #3C3C3C);
+    cursor: pointer;
+}
+.activeButton{
+    color: white;
+    background-color:blue;
+}
+.title-register:hover span,.title-login:hover span{
+    color:white;
+}
+.outer-form-login{
+    display: none;
+}
+.outer-outer-form-register-login,
+.outer-title-register-login
+{
+    width: 1310px;
+}
+.outer-form-register-1{
+    width: 50%;
+    padding: 5px;
+    margin:5px
+}
+.outer-form-register-1 form label span {
+    color: red;
+    font-size: 0.7em;
+    position: relative;
+    top: -0.5em;
 }

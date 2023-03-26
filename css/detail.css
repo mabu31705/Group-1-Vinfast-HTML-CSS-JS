@@ -415,6 +415,7 @@ a {
 .model-img.openModel .model-img-container{
     opacity: 1;
     pointer-events: auto;
+
 }
 .model-img-container{
     position: fixed;

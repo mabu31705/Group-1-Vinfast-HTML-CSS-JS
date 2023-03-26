@@ -49,11 +49,11 @@ function textImg(n){
 function removeBorder(a){
     a.style.border = "none"
 }
-function openModel(imgs1){
+function openModel(){
     let model = document.getElementById("modelId");
     model.classList.add("openModel");
 }
 function removeModel(e){
-    model = document.getElementById("modelId");
+    let model = document.getElementById("modelId");
     model.classList.remove("openModel")
 }
