@@ -305,13 +305,15 @@ display: grid;
     .title-register-login,
     .outer-form-register
 ,.outer-title-register-login-1
+    ,.outer-form-login
 {
     display: flex;
 }
 .outer-title-register-login,
 .outer-outer-outer-form-register-login,
 .title-register-login,
-    .outer-form-register
+    .outer-form-register,
+.outer-form-login
 {
     justify-content: center;
     align-items: center;
@@ -321,7 +323,7 @@ display: grid;
     flex-wrap: wrap;
     flex-direction: column;
 }
-.title-login,.title-register,.outer-title-register-login-1,.title-register-1,.title-login-1{
+.title-login,.title-register,.outer-title-register-login-1,.test1{
     width: 50%;
     padding: 5px;
     margin:5px;
@@ -331,14 +333,14 @@ display: grid;
     background-image:radial-gradient(cyan 1%, #1362f3 90%, #1362f3, #3C3C3C);
     cursor: pointer;
 }
-.activeButton{
+.test2 button{
     color: white;
     background-color:blue;
 }
 .title-register:hover span,.title-login:hover span{
     color:white;
 }
-.outer-form-login{
+#testLogin{
     display: none;
 }
 .outer-outer-form-register-login,
